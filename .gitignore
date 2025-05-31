@@ -1,0 +1,10 @@
+/vendor
+composer.phar
+composer.lock
+build
+.php_cs.cache
+coverage
+.idea
+.phpunit*
+docker-compose.yml
+/infra
