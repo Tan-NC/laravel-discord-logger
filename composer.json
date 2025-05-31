@@ -1,0 +1,30 @@
+{
+    "name": "tannc/laravel-discord-logger",
+    "description": "Laravel custom Discord log channel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TanNC",
+            "email": "tannc.312@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TanNc\\DiscordLogger\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TanNc\\DiscordLogger\\DiscordLoggerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
